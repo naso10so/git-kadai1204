@@ -243,6 +243,17 @@ text-align: left;
  }
 
 
+/* ---sidebar--- */
+/* まだちゃんと機能してない */
+ .sidebar-class {
+    width:250px;
+    min-height:500px;
+    height:auto ;
+    background-color:#009b9f;
+    float:right;
+    margin-top:10px;
+ }
+
  /* ---footer--- */
 
 footer{
