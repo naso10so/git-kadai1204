@@ -9,5 +9,5 @@
   <p><a href="<?php echo home_url(); ?>">トップページへ</a></p>
 </div>
 <?php
-// get_sidebar();
+get_sidebar();
 get_footer();

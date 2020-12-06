@@ -114,6 +114,6 @@
         </section>
     </article>
 
-
-
+<!-- sidebar.phpの呼び出し -->
+<?php get_sidebar(); ?>
 <?php get_footer();?>

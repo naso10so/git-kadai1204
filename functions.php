@@ -30,3 +30,16 @@ function sakura_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'sakura_theme_scripts' );
 
+//ウィジェット（サイドバー）
+// https://noumenon-th.net/programming/2016/06/22/wordpress10/
+function sample_widgets(){
+  
+    register_sidebar(array(
+      'name' => 'サイドバー',
+      'id' => 'sidebar',
+      'class' => 'sidebar-class',
+    ));
+    
+  }
+  add_action('widgets_init', 'sample_widgets');
+   

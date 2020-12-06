@@ -11,4 +11,6 @@
                 <p><?php the_content(); ?></p>
             </div>
         </div>
-<?php get_footer();?>
+<?php
+get_sidebar();
+get_footer();
