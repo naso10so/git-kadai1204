@@ -18,6 +18,18 @@ function sakura_theme_init() {
         "menu_icon" => "dashicons-cart",//dashicon
         "show_in_rest" =>true,//新エディタ対応
     ]);
+    // 製作実績の追加
+    register_post_type('portfolio',[ 
+        "labels" => [
+            "name" => "制作実績"
+        ],
+        "public" => true,
+        "has_archive" => true,
+        "hierarchical" => true,
+        "menu_icon" => "dashicons-buddicons-community",
+        "menu_position" => 26,
+        "show_in_rest" =>true,
+    ]);
 }
 add_action( 'init', 'sakura_theme_init' );
  
